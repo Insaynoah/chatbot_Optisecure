@@ -1,7 +1,13 @@
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 import chromadb
 from sentence_transformers import SentenceTransformer
 from embedding import generer_embeddings_avec_metadatas
 from scraping import lire_contrats_avec_metadatas
+
+
 
 # Fonction pour insérer dans ChromaDB
 def inserer_dans_chromadb(embeddings_data):
