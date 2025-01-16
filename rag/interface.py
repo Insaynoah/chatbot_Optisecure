@@ -6,6 +6,9 @@ from datetime import datetime
 import os
 from bdd import *
 
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 # Votre clé API Gemini
 api_key = "AIzaSyB5TvLH3-6CqNL09eEAEvGO9frgt5UNwk4"  # Remplacez par votre véritable clé API
