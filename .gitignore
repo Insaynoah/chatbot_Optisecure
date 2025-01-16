@@ -1,2 +1,3 @@
 rag/dashboard.py
 .venv
+__pycache__
