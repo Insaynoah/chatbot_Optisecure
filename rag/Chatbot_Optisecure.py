@@ -6,14 +6,12 @@ from datetime import datetime
 import os
 from bdd import *
 
-
 # Votre clé API Gemini
 api_key = "AIzaSyB5TvLH3-6CqNL09eEAEvGO9frgt5UNwk4"  # Remplacez par votre véritable clé API
 url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
 
 if "rating" not in st.session_state:
-        st.session_state['rating'] = 0  # Initialiser le rating si ce n'est pas déjà fait
-
+    st.session_state['rating'] = 0  # Initialiser le rating si ce n'est pas déjà fait
 
 st.logo(icon_image='https://i.ibb.co/MSZB1qp/Marceline-1.png', image='https://i.ibb.co/MSZB1qp/Marceline-1.png', size='large')
 
@@ -48,12 +46,11 @@ with st.sidebar:
             ip = location_data.get("ip", "Inconnue")
             
         data_to_write = [current_datetime, chat_history, rating, ip, city, region, country]
-                
         
         # Écrire dans le fichier CSV
         with open("feedback.csv", mode="a", newline='', encoding="utf-8") as file:
             file_empty = os.stat("feedback.csv").st_size == 0
-            writer = csv.writer(file,delimiter=";")
+            writer = csv.writer(file, delimiter=";")
             
             if file_empty:  # Ajouter l'entête si le fichier est vide
                 writer.writerow(["Date", "Historique de la conversation", "Note", "IP", "Ville", "Region", "Pays"])
@@ -68,13 +65,10 @@ if "messages" not in st.session_state:
 # Accepter l'entrée de l'utilisateur
 prompt = st.chat_input("Que voulez-vous savoir sur les contrats d'OptiSecure Assurances ?")  # Demander à l'utilisateur de saisir un message
 
-
-
 # Afficher les messages de l'historique de la conversation
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):  # Rôle du message ('user' ou 'assistant')
         st.markdown(message["content"])  # Afficher le contenu du message
-
 
 # Lorsque l'utilisateur soumet un message
 if prompt:
@@ -92,10 +86,16 @@ if prompt:
     threshold = 0.05  # Ajuster le seuil selon les besoins
     close_distances = [dist for dist in reponses_chroma.keys() if abs(dist - min_distance) <= threshold]
 
-    # Préparer la réponse en fonction des distances
+    # Préparer l'historique complet des messages
+    historique = "\n".join([f"{msg['role']}: {msg['content']}" for msg in st.session_state.messages])
+
+    # Construire le prompt complet pour l'API en incluant l'historique
+    prompt_entier = f"Voici l'historique de la conversation :\n{historique}\n\n"
+
+    # Cas où c'est le premier message de la conversation
     if len(st.session_state.messages) == 1:
         if min_distance > 0.8:
-            prompt_entier = (
+            prompt_entier += (
                 "Tu dois agir durant toute la conversation comme un agent pour une assurance : Optisecure. "
                 "Si la question suivante n'a aucun sens ou est en rapport avec les assurances mais n'est pas assez détaillée, "
                 "demande plus de détails/informations. Question : " + prompt
@@ -103,36 +103,34 @@ if prompt:
         elif len(close_distances) > 1:
             # Plusieurs réponses proches trouvées
             options = "\n".join([f"Option {i + 1}: {reponses_chroma[dist]}" for i, dist in enumerate(close_distances)])
-            prompt_entier = (
-                "Tu dois agir durant toute la conversation comme un agent pour une assurance : Optisecure. "
+            prompt_entier += (
                 "Voici la question posée par l'utilisateur : " + prompt + 
                 " et voici plusieurs réponses possibles qui sont très proches :\n" + options + 
                 "\nExplique pourquoi une réponse claire ne peut être donnée et propose une reformulation basée sur ces options."
             )
         else:
             meilleur_reponse = reponses_chroma[min_distance]
-            prompt_entier = (
-                "Tu dois agir durant toute la conversation comme un agent pour une assurance : Optisecure. "
+            prompt_entier += (
                 "Voici la question posée par l'utilisateur : " + prompt + 
                 " et voici la réponse que tu dois reformuler : " + meilleur_reponse
             )
     else:
         if min_distance > 0.8:
-            prompt_entier = (
+            prompt_entier += (
                 "Si la question suivante n'est pas en rapport avec les assurances, demande de poser une question par rapport aux assurances. "
                 "Sinon, demande plus de détails et ne réponds pas à la question posée. Question : " + prompt
             )
         elif len(close_distances) > 1:
             # Plusieurs réponses proches trouvées
             options = "\n".join([f"Option {i + 1}: {reponses_chroma[dist]}" for i, dist in enumerate(close_distances)])
-            prompt_entier = (
+            prompt_entier += (
                 "Voici la question posée par l'utilisateur : " + prompt + 
                 " et voici plusieurs réponses possibles qui sont très proches :\n" + options + 
                 "\nExplique pourquoi une réponse claire ne peut être donnée et propose une reformulation basée sur ces options."
             )
         else:
             meilleur_reponse = reponses_chroma[min_distance]
-            prompt_entier = (
+            prompt_entier += (
                 "Voici la question posée par l'utilisateur : " + prompt + 
                 " et voici la réponse que tu dois reformuler : " + meilleur_reponse
             )
