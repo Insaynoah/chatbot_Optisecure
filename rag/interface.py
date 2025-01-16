@@ -6,10 +6,6 @@ from datetime import datetime
 import os
 from bdd import *
 
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
-
 # Votre clé API Gemini
 api_key = "AIzaSyB5TvLH3-6CqNL09eEAEvGO9frgt5UNwk4"  # Remplacez par votre véritable clé API
 url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
