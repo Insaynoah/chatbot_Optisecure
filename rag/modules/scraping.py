@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import os
 
-def lire_contrats_avec_metadatas(repertoire: str):
+def lire_contrats_avec_metadatas(repertoire: str) -> tuple:
     """
     Lis les fichiers HTML dans un répertoire, extrait uniquement la première liste (<ul> ou <ol>) de chaque section.
 
@@ -55,7 +55,8 @@ def lire_contrats_avec_metadatas(repertoire: str):
                             "type_liste": premiere_liste.name  # ul ou ol
                         }
 
-                        doc_id = f"{nom}_sec_{i}_liste"
+                        # 🆔 Générer un identifiant unique pour chaque liste
+                        doc_id = f"{nom}_sec_{i+1}_liste"
                         documents.append(contenu_liste)
                         metadatas.append(metadata)
                         ids.append(doc_id)

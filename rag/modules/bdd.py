@@ -7,11 +7,11 @@ except:
 
 import chromadb
 from sentence_transformers import SentenceTransformer
-from embedding import generer_embeddings_avec_metadatas
-from scraping import lire_contrats_avec_metadatas
+from modules.embedding import generer_embeddings_avec_metadatas
+from modules.scraping import lire_contrats_avec_metadatas
 
 # Fonction pour insérer dans ChromaDB
-def inserer_dans_chromadb(embeddings_data):
+def inserer_dans_chromadb(embeddings_data : dict) -> None:
     """
     Insère les données dans la base vectorielle chromaDB.
 
@@ -62,11 +62,7 @@ documents, metadatas, ids = lire_contrats_avec_metadatas(repertoire_html)
 embeddings_contrats = generer_embeddings_avec_metadatas(documents, metadatas, ids)
 
 
-
-print("Documents et embeddings insérés dans ChromaDB avec succès!")
-
-
-def requete_chromadb(question, collection_name="contrats_collection", modele="all-MiniLM-L6-v2"):
+def requete_chromadb(question : str, collection_name="contrats_collection", modele="all-MiniLM-L6-v2") -> None:
     """
     Effectue une requête sur la base de données et compare la similarité entre la question et les documents
 

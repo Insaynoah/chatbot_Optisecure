@@ -1,6 +1,6 @@
 from sentence_transformers import SentenceTransformer
 
-def generer_embeddings_avec_metadatas(documents, metadatas, ids, modele: str = 'all-MiniLM-L6-v2') -> dict:
+def generer_embeddings_avec_metadatas(documents : list, metadatas : list, ids : list, modele: str = 'all-MiniLM-L6-v2') -> dict:
     """
     Génère des embeddings pour les documents en utilisant Sentence Transformers.
     

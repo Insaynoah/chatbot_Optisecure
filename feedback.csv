@@ -1,201 +1,201 @@
-;Unnamed: 0.1;Unnamed: 0;Date;Historique de la conversation;Note;IP;Ville;Region;Pays
-0;0;0;2024-12-01 10:09:29;Ciao! Come posso aiutarti?;2.5;10.31.217.241;Lyon;Auvergne-Rhône-Alpes;FR
-1;1;1;2024-11-01 10:09:29;Hallo! Wie kann ich Ihnen helfen?;1.0;198.35.31.106;Paris;Île-de-France;FR
-2;2;2;2024-09-14 10:09:29;Hi! How can I assist you?;3.5;39.128.194.125;Marseille;Provence-Alpes-Côte d'Azur;FR
-3;3;3;2024-07-24 10:09:29;Bonjour ! Comment puis-je t'aider ?;1.0;190.28.3.235;Lyon;Auvergne-Rhône-Alpes;FR
-4;4;4;2024-02-01 10:09:29;Hallo! Wie kann ich Ihnen helfen?;3.5;112.234.234.146;Marseille;Provence-Alpes-Côte d'Azur;FR
-5;5;5;2024-12-13 10:09:29;;1.0;246.156.175.206;Lyon;Auvergne-Rhône-Alpes;FR
-6;6;6;2024-09-04 10:09:29;Ciao! Come posso aiutarti?;3.5;77.5.133.176;Marseille;Provence-Alpes-Côte d'Azur;FR
-7;7;7;2024-08-18 10:09:29;Hi! How can I assist you?;2.0;101.98.22.186;Marseille;Provence-Alpes-Côte d'Azur;FR
-8;8;8;2025-01-12 10:09:29;;2.5;95.8.251.235;Marseille;Provence-Alpes-Côte d'Azur;FR
-9;9;9;2024-03-31 10:09:29;Bonjour ! Comment puis-je t'aider ?;2.0;178.3.76.105;Paris;Île-de-France;FR
-10;10;10;2024-07-15 10:09:29;Hallo! Wie kann ich Ihnen helfen?;2.5;141.59.37.239;Lyon;Auvergne-Rhône-Alpes;FR
-11;11;11;2024-01-21 10:09:29;Hallo! Wie kann ich Ihnen helfen?;2.0;44.28.45.142;Paris;Île-de-France;FR
-12;12;12;2024-02-13 10:09:29;Ciao! Come posso aiutarti?;2.5;97.33.199.224;Marseille;Provence-Alpes-Côte d'Azur;FR
-13;13;13;2024-02-25 10:09:29;;3.0;119.99.33.159;Paris;Île-de-France;FR
-14;14;14;2024-03-19 10:09:29;Ciao! Come posso aiutarti?;4.5;229.80.168.7;Marseille;Provence-Alpes-Côte d'Azur;FR
-15;15;15;2024-08-24 10:09:29;Hi! How can I assist you?;1.0;47.143.144.176;Lyon;Auvergne-Rhône-Alpes;FR
-16;16;16;2024-08-07 10:09:29;Hi! How can I assist you?;3.5;216.93.5.155;Lyon;Auvergne-Rhône-Alpes;FR
-17;17;17;2024-03-15 10:09:29;Hola! ¿Cómo puedo ayudarte?;3.0;84.213.81.172;Paris;Île-de-France;FR
-18;18;18;2024-11-24 10:09:29;Hallo! Wie kann ich Ihnen helfen?;3.5;155.214.98.31;Marseille;Provence-Alpes-Côte d'Azur;FR
-19;19;19;2024-11-09 10:09:29;Hallo! Wie kann ich Ihnen helfen?;1.0;230.43.85.227;Marseille;Provence-Alpes-Côte d'Azur;FR
-20;20;20;2024-09-24 10:09:29;Hola! ¿Cómo puedo ayudarte?;5.0;124.55.181.122;Munich;Bavaria;DE
-21;21;21;2024-06-20 10:09:29;Hola! ¿Cómo puedo ayudarte?;5.0;107.189.73.201;Berlin;Berlin;DE
-22;22;22;2024-04-01 10:09:29;;5.0;90.78.15.119;Hamburg;Hamburg;DE
-23;23;23;2024-07-03 10:09:29;;4.0;37.150.59.46;Munich;Bavaria;DE
-24;24;24;2024-08-31 10:09:29;Hallo! Wie kann ich Ihnen helfen?;5.0;55.118.69.194;Munich;Bavaria;DE
-25;25;25;2024-10-23 10:09:29;;5.0;39.34.126.14;Munich;Bavaria;DE
-26;26;26;2024-06-07 10:09:29;Hola! ¿Cómo puedo ayudarte?;5.0;64.250.144.162;Munich;Bavaria;DE
-27;27;27;2024-07-23 10:09:29;;4.0;181.73.53.32;Munich;Bavaria;DE
-28;28;28;2024-10-04 10:09:29;Hi! How can I assist you?;5.0;41.18.209.9;Berlin;Berlin;DE
-29;29;29;2024-05-21 10:09:29;Hallo! Wie kann ich Ihnen helfen?;5.0;127.20.202.215;Hamburg;Hamburg;DE
-30;30;30;2024-12-13 10:09:29;Hola! ¿Cómo puedo ayudarte?;5.0;253.197.215.162;Berlin;Berlin;DE
-31;31;31;2024-11-27 10:09:29;Bonjour ! Comment puis-je t'aider ?;5.0;197.214.62.205;Berlin;Berlin;DE
-32;32;32;2024-09-24 10:09:29;Bonjour ! Comment puis-je t'aider ?;5.0;108.241.92.67;Hamburg;Hamburg;DE
-33;33;33;2024-10-30 10:09:29;Hola! ¿Cómo puedo ayudarte?;3.0;179.63.147.77;Munich;Bavaria;DE
-34;34;34;2024-11-05 10:09:29;Hallo! Wie kann ich Ihnen helfen?;5.0;3.163.81.133;Munich;Bavaria;DE
-35;35;35;2024-06-12 10:09:29;Hi! How can I assist you?;5.0;146.51.105.121;Hamburg;Hamburg;DE
-36;36;36;2024-05-08 10:09:29;Hola! ¿Cómo puedo ayudarte?;5.0;220.246.185.34;Munich;Bavaria;DE
-37;37;37;2024-10-14 10:09:29;Hi! How can I assist you?;4.0;15.240.2.60;Munich;Bavaria;DE
-38;38;38;2024-10-14 10:09:29;Bonjour ! Comment puis-je t'aider ?;5.0;67.5.83.150;Hamburg;Hamburg;DE
-39;39;39;2024-08-30 10:09:29;Hola! ¿Cómo puedo ayudarte?;4.0;223.216.74.6;Munich;Bavaria;DE
-40;40;40;2024-08-02 10:09:29;Hi! How can I assist you?;5.0;197.183.211.108;Milan;Lombardy;IT
-41;41;41;2024-01-24 10:09:29;Hallo! Wie kann ich Ihnen helfen?;4.0;137.225.66.90;Milan;Lombardy;IT
-42;42;42;2024-10-06 10:09:29;Hi! How can I assist you?;5.0;48.125.34.140;Naples;Campania;IT
-43;43;43;2025-01-07 10:09:29;;4.0;176.252.10.34;Milan;Lombardy;IT
-44;44;44;2024-11-07 10:09:29;;5.0;18.2.80.239;Rome;Lazio;IT
-45;45;45;2024-08-19 10:09:29;Ciao! Come posso aiutarti?;5.0;91.104.97.219;Naples;Campania;IT
-46;46;46;2024-11-16 10:09:29;;5.0;121.221.115.88;Milan;Lombardy;IT
-47;47;47;2024-09-16 10:09:29;Ciao! Come posso aiutarti?;4.0;211.141.223.60;Naples;Campania;IT
-48;48;48;2024-04-20 10:09:29;;4.5;202.117.78.73;Rome;Lazio;IT
-49;49;49;2024-02-09 10:09:29;Hallo! Wie kann ich Ihnen helfen?;5.0;157.49.45.119;Rome;Lazio;IT
-50;50;50;2024-12-25 10:09:29;Hi! How can I assist you?;5.0;126.182.3.52;Milan;Lombardy;IT
-51;51;51;2024-12-28 10:09:29;;5.0;140.58.123.16;Rome;Lazio;IT
-52;52;52;2024-07-28 10:09:29;Bonjour ! Comment puis-je t'aider ?;5.0;69.189.71.58;Milan;Lombardy;IT
-53;53;53;2024-08-06 10:09:29;Hallo! Wie kann ich Ihnen helfen?;3.0;153.251.174.145;Rome;Lazio;IT
-54;54;54;2024-05-25 10:09:29;Hallo! Wie kann ich Ihnen helfen?;4.5;24.127.133.100;Naples;Campania;IT
-55;55;55;2024-09-13 10:09:29;Hallo! Wie kann ich Ihnen helfen?;4.0;47.132.240.84;Naples;Campania;IT
-56;56;56;2024-11-25 10:09:29;Hi! How can I assist you?;5.0;67.138.117.50;Milan;Lombardy;IT
-57;57;57;2024-03-24 10:09:29;Hi! How can I assist you?;3.0;58.91.66.93;Naples;Campania;IT
-58;58;58;2024-05-15 10:09:29;Hi! How can I assist you?;5.0;138.23.165.77;Milan;Lombardy;IT
-59;59;59;2024-07-14 10:09:29;Hola! ¿Cómo puedo ayudarte?;3.0;207.101.180.111;Rome;Lazio;IT
-60;60;60;2024-03-11 10:09:29;Bonjour ! Comment puis-je t'aider ?;5.0;233.123.140.34;Barcelona;Catalonia;ES
-61;61;61;2024-10-07 10:09:29;Hi! How can I assist you?;4.0;205.54.215.70;Seville;Andalusia;ES
-62;62;62;2024-09-24 10:09:29;Hallo! Wie kann ich Ihnen helfen?;4.5;81.253.121.184;Madrid;Madrid;ES
-63;63;63;2024-12-30 10:09:29;Hola! ¿Cómo puedo ayudarte?;3.0;1.14.91.150;Madrid;Madrid;ES
-64;64;64;2025-01-12 10:09:29;Hola! ¿Cómo puedo ayudarte?;3.5;150.170.156.164;Madrid;Madrid;ES
-65;65;65;2024-10-18 10:09:29;;4.0;129.231.49.42;Barcelona;Catalonia;ES
-66;66;66;2024-06-02 10:09:29;Bonjour ! Comment puis-je t'aider ?;5.0;200.125.132.136;Barcelona;Catalonia;ES
-67;67;67;2024-03-23 10:09:29;Hi! How can I assist you?;4.0;94.191.244.31;Barcelona;Catalonia;ES
-68;68;68;2024-11-17 10:09:29;Hola! ¿Cómo puedo ayudarte?;3.5;173.77.206.17;Madrid;Madrid;ES
-69;69;69;2024-08-30 10:09:29;Hi! How can I assist you?;3.0;83.167.239.204;Madrid;Madrid;ES
-70;70;70;2024-07-30 10:09:29;Hi! How can I assist you?;4.5;120.145.143.40;Seville;Andalusia;ES
-71;71;71;2024-04-08 10:09:29;Hi! How can I assist you?;3.0;189.51.56.142;Seville;Andalusia;ES
-72;72;72;2024-10-04 10:09:29;Ciao! Come posso aiutarti?;3.5;196.106.105.21;Madrid;Madrid;ES
-73;73;73;2024-08-14 10:09:29;Hallo! Wie kann ich Ihnen helfen?;3.0;102.131.143.209;Madrid;Madrid;ES
-74;74;74;2024-12-19 10:09:29;Bonjour ! Comment puis-je t'aider ?;4.5;88.143.132.38;Seville;Andalusia;ES
-75;75;75;2024-08-09 10:09:29;;3.0;176.149.235.173;Seville;Andalusia;ES
-76;76;76;2024-03-28 10:09:29;Hi! How can I assist you?;5.0;71.70.121.134;Madrid;Madrid;ES
-77;77;77;2024-03-16 10:09:29;Hi! How can I assist you?;4.0;229.176.67.231;Barcelona;Catalonia;ES
-78;78;78;2024-02-17 10:09:29;Ciao! Come posso aiutarti?;5.0;202.21.72.39;Barcelona;Catalonia;ES
-79;79;79;2024-02-05 10:09:29;Bonjour ! Comment puis-je t'aider ?;3.0;115.171.196.193;Madrid;Madrid;ES
-80;80;80;2024-11-07 10:09:29;Hola! ¿Cómo puedo ayudarte?;5.0;204.191.93.125;Warsaw;Masovian;PL
-81;81;81;2024-09-09 10:09:29;Ciao! Come posso aiutarti?;4.0;25.12.95.214;Krakow;Lesser Poland;PL
-82;82;82;2024-04-20 10:09:29;Hallo! Wie kann ich Ihnen helfen?;4.5;140.241.207.194;Gdansk;Pomeranian;PL
-83;83;83;2024-10-22 10:09:29;Hi! How can I assist you?;5.0;35.21.16.127;Krakow;Lesser Poland;PL
-84;84;84;2024-05-19 10:09:29;Hola! ¿Cómo puedo ayudarte?;5.0;209.162.185.144;Warsaw;Masovian;PL
-85;85;85;2024-02-14 10:09:29;Hola! ¿Cómo puedo ayudarte?;5.0;115.134.246.210;Warsaw;Masovian;PL
-86;86;86;2024-10-18 10:09:29;Hola! ¿Cómo puedo ayudarte?;5.0;108.12.45.207;Krakow;Lesser Poland;PL
-87;87;87;2024-08-14 10:09:29;Hi! How can I assist you?;5.0;20.144.193.149;Krakow;Lesser Poland;PL
-88;88;88;2024-08-03 10:09:29;Hallo! Wie kann ich Ihnen helfen?;5.0;123.186.192.4;Warsaw;Masovian;PL
-89;89;89;2024-09-28 10:09:29;Hallo! Wie kann ich Ihnen helfen?;5.0;233.116.255.202;Krakow;Lesser Poland;PL
-90;90;90;2024-02-02 10:09:29;Bonjour ! Comment puis-je t'aider ?;4.5;90.240.161.168;Gdansk;Pomeranian;PL
-91;91;91;2024-05-14 10:09:29;;3.0;47.29.48.132;Gdansk;Pomeranian;PL
-92;92;92;2024-10-31 10:09:29;Hallo! Wie kann ich Ihnen helfen?;5.0;48.225.33.93;Gdansk;Pomeranian;PL
-93;93;93;2024-12-20 10:09:29;;4.0;214.212.126.253;Gdansk;Pomeranian;PL
-94;94;94;2024-09-14 10:09:29;;5.0;194.247.80.236;Krakow;Lesser Poland;PL
-95;95;95;2024-12-17 10:09:29;;4.0;62.147.60.231;Warsaw;Masovian;PL
-96;96;96;2024-07-06 10:09:29;Hola! ¿Cómo puedo ayudarte?;5.0;81.202.79.119;Krakow;Lesser Poland;PL
-97;97;97;2024-05-28 10:09:29;;4.0;33.5.129.108;Krakow;Lesser Poland;PL
-98;98;98;2024-10-26 10:09:29;Ciao! Come posso aiutarti?;5.0;21.144.181.50;Gdansk;Pomeranian;PL
-99;99;99;2024-05-17 10:09:29;Ciao! Come posso aiutarti?;3.0;97.57.110.151;Gdansk;Pomeranian;PL
-100;100;100;2024-10-23 10:09:29;Bonjour ! Comment puis-je t'aider ?;2.5;49.106.40.182;Rotterdam;South Holland;NL
-101;101;101;2024-04-19 10:09:29;Bonjour ! Comment puis-je t'aider ?;2.0;56.131.212.249;Amsterdam;North Holland;NL
-102;102;102;2024-07-02 10:09:29;;2.5;64.255.83.31;Rotterdam;South Holland;NL
-103;103;103;2024-11-04 10:09:29;Hallo! Wie kann ich Ihnen helfen?;1.0;156.136.147.48;Utrecht;Utrecht;NL
-104;104;104;2024-05-27 10:09:29;Ciao! Come posso aiutarti?;2.5;184.84.194.149;Rotterdam;South Holland;NL
-105;105;105;2024-02-11 10:09:29;Hi! How can I assist you?;1.0;234.19.38.106;Rotterdam;South Holland;NL
-106;106;106;2024-12-25 10:09:29;Ciao! Come posso aiutarti?;2.5;5.132.36.72;Amsterdam;North Holland;NL
-107;107;107;2024-04-20 10:09:29;;1.0;180.118.177.211;Rotterdam;South Holland;NL
-108;108;108;2024-08-02 10:09:29;Bonjour ! Comment puis-je t'aider ?;3.5;133.52.91.44;Rotterdam;South Holland;NL
-109;109;109;2024-08-12 10:09:29;Bonjour ! Comment puis-je t'aider ?;1.0;12.183.141.250;Amsterdam;North Holland;NL
-110;110;110;2024-06-12 10:09:29;Hallo! Wie kann ich Ihnen helfen?;2.5;239.25.156.228;Rotterdam;South Holland;NL
-111;111;111;2024-10-04 10:09:29;Ciao! Come posso aiutarti?;1.0;120.253.196.52;Amsterdam;North Holland;NL
-112;112;112;2024-02-04 10:09:29;;2.5;127.48.250.196;Utrecht;Utrecht;NL
-113;113;113;2024-01-23 10:09:29;Bonjour ! Comment puis-je t'aider ?;2.0;138.179.79.181;Rotterdam;South Holland;NL
-114;114;114;2024-07-02 10:09:29;Hi! How can I assist you?;3.5;195.134.211.62;Rotterdam;South Holland;NL
-115;115;115;2024-01-29 10:09:29;Bonjour ! Comment puis-je t'aider ?;1.0;143.211.15.106;Rotterdam;South Holland;NL
-116;116;116;2024-02-24 10:09:29;Hi! How can I assist you?;3.5;230.244.202.63;Rotterdam;South Holland;NL
-117;117;117;2024-05-26 10:09:29;Bonjour ! Comment puis-je t'aider ?;1.0;83.132.205.90;Amsterdam;North Holland;NL
-118;118;118;2024-10-18 10:09:29;Hola! ¿Cómo puedo ayudarte?;2.5;238.101.164.135;Amsterdam;North Holland;NL
-119;119;119;2024-06-08 10:09:29;;1.0;63.117.141.201;Utrecht;Utrecht;NL
-120;120;120;2024-06-26 10:09:29;;5.0;202.233.12.73;Malmö;Skåne;SE
-121;121;121;2024-02-12 10:09:29;Hallo! Wie kann ich Ihnen helfen?;5.0;8.122.223.120;Malmö;Skåne;SE
-122;122;122;2024-09-11 10:09:29;;5.0;151.11.152.226;Gothenburg;Västra Götaland;SE
-123;123;123;2024-09-16 10:09:29;Hola! ¿Cómo puedo ayudarte?;5.0;140.58.52.208;Stockholm;Stockholm;SE
-124;124;124;2024-08-20 10:09:29;;5.0;72.248.185.53;Gothenburg;Västra Götaland;SE
-125;125;125;2024-02-03 10:09:29;Hola! ¿Cómo puedo ayudarte?;4.0;64.122.157.92;Gothenburg;Västra Götaland;SE
-126;126;126;2024-06-11 10:09:29;Hallo! Wie kann ich Ihnen helfen?;5.0;198.195.28.255;Stockholm;Stockholm;SE
-127;127;127;2024-11-07 10:09:29;;5.0;142.95.228.214;Gothenburg;Västra Götaland;SE
-128;128;128;2024-06-25 10:09:29;Hi! How can I assist you?;5.0;142.93.49.155;Malmö;Skåne;SE
-129;129;129;2024-08-10 10:09:29;Bonjour ! Comment puis-je t'aider ?;4.0;237.103.249.161;Gothenburg;Västra Götaland;SE
-130;130;130;2024-07-24 10:09:29;;5.0;30.148.76.241;Malmö;Skåne;SE
-131;131;131;2024-07-09 10:09:29;Ciao! Come posso aiutarti?;5.0;1.147.96.149;Stockholm;Stockholm;SE
-132;132;132;2024-06-27 10:09:29;Ciao! Come posso aiutarti?;5.0;26.106.129.173;Stockholm;Stockholm;SE
-133;133;133;2024-11-20 10:09:29;Hallo! Wie kann ich Ihnen helfen?;5.0;215.142.56.36;Gothenburg;Västra Götaland;SE
-134;134;134;2024-02-19 10:09:29;;5.0;132.101.148.167;Gothenburg;Västra Götaland;SE
-135;135;135;2024-02-16 10:09:29;Ciao! Come posso aiutarti?;4.0;16.70.45.158;Malmö;Skåne;SE
-136;136;136;2024-12-12 10:09:29;;5.0;15.126.59.146;Malmö;Skåne;SE
-137;137;137;2024-04-10 10:09:29;Hallo! Wie kann ich Ihnen helfen?;5.0;16.175.137.73;Malmö;Skåne;SE
-138;138;138;2024-04-29 10:09:29;Hi! How can I assist you?;5.0;65.151.50.44;Malmö;Skåne;SE
-139;139;139;2024-03-13 10:09:29;Hi! How can I assist you?;5.0;1.125.200.101;Malmö;Skåne;SE
-140;140;140;2024-08-22 10:09:29;Ciao! Come posso aiutarti?;4.5;99.222.84.116;Stavanger;Rogaland;NO
-141;141;141;2024-07-23 10:09:29;Hallo! Wie kann ich Ihnen helfen?;3.0;142.137.63.138;Stavanger;Rogaland;NO
-142;142;142;2024-04-11 10:09:29;;4.5;139.138.200.205;Bergen;Vestland;NO
-143;143;143;2024-01-18 10:09:29;Hola! ¿Cómo puedo ayudarte?;2.0;193.156.49.9;Oslo;Oslo;NO
-144;144;144;2024-09-26 10:09:29;Ciao! Come posso aiutarti?;3.5;99.116.106.183;Bergen;Vestland;NO
-145;145;145;2024-01-28 10:09:29;Bonjour ! Comment puis-je t'aider ?;3.0;210.255.89.32;Bergen;Vestland;NO
-146;146;146;2024-04-16 10:09:29;;3.5;56.64.43.3;Stavanger;Rogaland;NO
-147;147;147;2024-03-24 10:09:29;;3.0;105.165.39.205;Oslo;Oslo;NO
-148;148;148;2025-01-02 10:09:29;Hallo! Wie kann ich Ihnen helfen?;3.5;153.64.114.190;Stavanger;Rogaland;NO
-149;149;149;2024-10-22 10:09:29;Ciao! Come posso aiutarti?;3.0;156.181.188.235;Oslo;Oslo;NO
-150;150;150;2024-04-17 10:09:29;Bonjour ! Comment puis-je t'aider ?;3.5;74.149.168.221;Stavanger;Rogaland;NO
-151;151;151;2024-07-01 10:09:29;Hi! How can I assist you?;3.0;51.16.32.244;Oslo;Oslo;NO
-152;152;152;2024-12-16 10:09:29;Hi! How can I assist you?;3.5;168.241.188.117;Oslo;Oslo;NO
-153;153;153;2024-10-13 10:09:29;Hola! ¿Cómo puedo ayudarte?;2.0;144.234.31.113;Bergen;Vestland;NO
-154;154;154;2024-07-06 10:09:29;Bonjour ! Comment puis-je t'aider ?;4.5;174.208.12.200;Bergen;Vestland;NO
-155;155;155;2024-04-29 10:09:29;Ciao! Come posso aiutarti?;3.0;128.89.11.149;Oslo;Oslo;NO
-156;156;156;2024-12-11 10:09:29;Hola! ¿Cómo puedo ayudarte?;4.5;188.45.168.237;Oslo;Oslo;NO
-157;157;157;2024-02-11 10:09:29;Bonjour ! Comment puis-je t'aider ?;3.0;164.240.118.71;Oslo;Oslo;NO
-158;158;158;2024-04-21 10:09:29;Hola! ¿Cómo puedo ayudarte?;5.0;109.49.104.194;Oslo;Oslo;NO
-159;159;159;2024-01-19 10:09:29;Hola! ¿Cómo puedo ayudarte?;3.0;251.243.83.255;Bergen;Vestland;NO
-160;160;160;2024-05-29 10:09:29;Hi! How can I assist you?;3.5;41.34.118.41;Turku;Southwest Finland;FI
-161;161;161;2024-04-28 10:09:29;Bonjour ! Comment puis-je t'aider ?;1.0;246.100.239.41;Turku;Southwest Finland;FI
-162;162;162;2024-06-07 10:09:29;Hola! ¿Cómo puedo ayudarte?;2.5;38.16.213.92;Helsinki;Uusimaa;FI
-163;163;163;2024-12-13 10:09:29;Hallo! Wie kann ich Ihnen helfen?;1.0;231.159.203.23;Tampere;Pirkanmaa;FI
-164;164;164;2024-01-19 10:09:29;Hallo! Wie kann ich Ihnen helfen?;2.5;237.21.154.143;Helsinki;Uusimaa;FI
-165;165;165;2024-08-29 10:09:29;Bonjour ! Comment puis-je t'aider ?;2.0;121.2.255.255;Tampere;Pirkanmaa;FI
-166;166;166;2024-09-26 10:09:29;Hola! ¿Cómo puedo ayudarte?;2.5;96.16.57.127;Turku;Southwest Finland;FI
-167;167;167;2024-09-25 10:09:29;Hallo! Wie kann ich Ihnen helfen?;1.0;137.13.170.196;Tampere;Pirkanmaa;FI
-168;168;168;2024-07-23 10:09:29;Bonjour ! Comment puis-je t'aider ?;2.5;222.164.28.204;Tampere;Pirkanmaa;FI
-169;169;169;2024-09-02 10:09:29;Hi! How can I assist you?;1.0;195.78.181.239;Turku;Southwest Finland;FI
-170;170;170;2024-08-22 10:09:29;Ciao! Come posso aiutarti?;2.5;79.98.144.209;Turku;Southwest Finland;FI
-171;171;171;2024-07-10 10:09:29;Hola! ¿Cómo puedo ayudarte?;1.0;158.160.148.209;Tampere;Pirkanmaa;FI
-172;172;172;2025-01-04 10:09:29;Hi! How can I assist you?;3.5;251.251.76.126;Tampere;Pirkanmaa;FI
-173;173;173;2024-11-06 10:09:29;Hola! ¿Cómo puedo ayudarte?;1.0;43.193.241.25;Tampere;Pirkanmaa;FI
-174;174;174;2024-04-14 10:09:29;Hola! ¿Cómo puedo ayudarte?;2.5;48.131.178.197;Turku;Southwest Finland;FI
-175;175;175;2024-11-21 10:09:29;Hi! How can I assist you?;2.0;12.26.95.31;Helsinki;Uusimaa;FI
-176;176;176;2024-05-19 10:09:29;Hola! ¿Cómo puedo ayudarte?;2.5;128.221.187.169;Helsinki;Uusimaa;FI
-177;177;177;2024-11-11 10:09:29;Hallo! Wie kann ich Ihnen helfen?;1.0;17.46.235.48;Turku;Southwest Finland;FI
-178;178;178;2024-11-27 10:09:29;Hallo! Wie kann ich Ihnen helfen?;2.5;167.178.63.83;Turku;Southwest Finland;FI
-179;179;179;2024-03-02 10:09:29;Hola! ¿Cómo puedo ayudarte?;1.0;160.165.167.225;Turku;Southwest Finland;FI
-180;180;180;2024-03-07 10:09:29;Bonjour ! Comment puis-je t'aider ?;5.0;103.93.143.189;Odense;Southern Denmark;DK
-181;181;181;2024-12-05 10:09:29;;4.0;93.169.189.88;Odense;Southern Denmark;DK
-182;182;182;2024-02-14 10:09:29;Hola! ¿Cómo puedo ayudarte?;5.0;45.149.43.233;Copenhagen;Capital Region;DK
-183;183;183;2024-07-10 10:09:29;Ciao! Come posso aiutarti?;4.0;185.110.179.56;Copenhagen;Capital Region;DK
-184;184;184;2024-09-09 10:09:29;Hi! How can I assist you?;5.0;97.243.61.89;Odense;Southern Denmark;DK
-185;185;185;2024-05-11 10:09:29;Hallo! Wie kann ich Ihnen helfen?;5.0;31.111.46.88;Copenhagen;Capital Region;DK
-186;186;186;2024-11-17 10:09:29;Hi! How can I assist you?;5.0;187.221.215.85;Copenhagen;Capital Region;DK
-187;187;187;2024-03-11 10:09:29;;5.0;146.199.186.44;Copenhagen;Capital Region;DK
-188;188;188;2025-01-08 10:09:29;Ciao! Come posso aiutarti?;5.0;210.197.52.251;Copenhagen;Capital Region;DK
-189;189;189;2024-03-23 10:09:29;Hola! ¿Cómo puedo ayudarte?;4.0;208.33.179.10;Odense;Southern Denmark;DK
-190;190;190;2024-06-18 10:09:29;Ciao! Come posso aiutarti?;5.0;139.152.91.91;Odense;Southern Denmark;DK
-191;191;191;2024-10-28 10:09:29;;3.0;187.226.138.71;Odense;Southern Denmark;DK
-192;192;192;2024-11-18 10:09:29;Bonjour ! Comment puis-je t'aider ?;5.0;77.82.146.128;Copenhagen;Capital Region;DK
-193;193;193;2024-10-27 10:09:29;;5.0;145.131.174.103;Odense;Southern Denmark;DK
-194;194;194;2024-02-06 10:09:29;Hi! How can I assist you?;5.0;10.197.169.4;Aarhus;Central Denmark;DK
-195;195;195;2025-01-16 10:09:29;Hallo! Wie kann ich Ihnen helfen?;5.0;134.154.38.16;Odense;Southern Denmark;DK
-196;196;196;2024-02-18 10:09:29;Hi! How can I assist you?;4.5;83.203.149.18;Aarhus;Central Denmark;DK
-197;197;197;2024-04-25 10:09:29;Bonjour ! Comment puis-je t'aider ?;4.0;71.118.215.173;Copenhagen;Capital Region;DK
-198;198;198;2024-03-15 10:09:29;Hallo! Wie kann ich Ihnen helfen?;5.0;186.66.13.241;Aarhus;Central Denmark;DK
-199;199;199;2024-09-09 10:09:29;;4.0;43.207.13.80;Odense;Southern Denmark;DK
+Date;Historique de la conversation;Note;IP;Ville;Region;Pays
+2024-12-01 10:09:29;Ciao! Come posso aiutarti?;2.5;10.31.217.241;Lyon;Auvergne-Rhône-Alpes;FR
+2024-11-01 10:09:29;Hallo! Wie kann ich Ihnen helfen?;1.0;198.35.31.106;Paris;Île-de-France;FR
+2024-09-14 10:09:29;Hi! How can I assist you?;3.5;39.128.194.125;Marseille;Provence-Alpes-Côte d'Azur;FR
+2024-07-24 10:09:29;Bonjour ! Comment puis-je t'aider ?;1.0;190.28.3.235;Lyon;Auvergne-Rhône-Alpes;FR
+2024-02-01 10:09:29;Hallo! Wie kann ich Ihnen helfen?;3.5;112.234.234.146;Marseille;Provence-Alpes-Côte d'Azur;FR
+2024-12-13 10:09:29;;1.0;246.156.175.206;Lyon;Auvergne-Rhône-Alpes;FR
+2024-09-04 10:09:29;Ciao! Come posso aiutarti?;3.5;77.5.133.176;Marseille;Provence-Alpes-Côte d'Azur;FR
+2024-08-18 10:09:29;Hi! How can I assist you?;2.0;101.98.22.186;Marseille;Provence-Alpes-Côte d'Azur;FR
+2025-01-12 10:09:29;;2.5;95.8.251.235;Marseille;Provence-Alpes-Côte d'Azur;FR
+2024-03-31 10:09:29;Bonjour ! Comment puis-je t'aider ?;2.0;178.3.76.105;Paris;Île-de-France;FR
+2024-07-15 10:09:29;Hallo! Wie kann ich Ihnen helfen?;2.5;141.59.37.239;Lyon;Auvergne-Rhône-Alpes;FR
+2024-01-21 10:09:29;Hallo! Wie kann ich Ihnen helfen?;2.0;44.28.45.142;Paris;Île-de-France;FR
+2024-02-13 10:09:29;Ciao! Come posso aiutarti?;2.5;97.33.199.224;Marseille;Provence-Alpes-Côte d'Azur;FR
+2024-02-25 10:09:29;;3.0;119.99.33.159;Paris;Île-de-France;FR
+2024-03-19 10:09:29;Ciao! Come posso aiutarti?;4.5;229.80.168.7;Marseille;Provence-Alpes-Côte d'Azur;FR
+2024-08-24 10:09:29;Hi! How can I assist you?;1.0;47.143.144.176;Lyon;Auvergne-Rhône-Alpes;FR
+2024-08-07 10:09:29;Hi! How can I assist you?;3.5;216.93.5.155;Lyon;Auvergne-Rhône-Alpes;FR
+2024-03-15 10:09:29;Hola! ¿Cómo puedo ayudarte?;3.0;84.213.81.172;Paris;Île-de-France;FR
+2024-11-24 10:09:29;Hallo! Wie kann ich Ihnen helfen?;3.5;155.214.98.31;Marseille;Provence-Alpes-Côte d'Azur;FR
+2024-11-09 10:09:29;Hallo! Wie kann ich Ihnen helfen?;1.0;230.43.85.227;Marseille;Provence-Alpes-Côte d'Azur;FR
+2024-09-24 10:09:29;Hola! ¿Cómo puedo ayudarte?;5.0;124.55.181.122;Munich;Bavaria;DE
+2024-06-20 10:09:29;Hola! ¿Cómo puedo ayudarte?;5.0;107.189.73.201;Berlin;Berlin;DE
+2024-04-01 10:09:29;;5.0;90.78.15.119;Hamburg;Hamburg;DE
+2024-07-03 10:09:29;;4.0;37.150.59.46;Munich;Bavaria;DE
+2024-08-31 10:09:29;Hallo! Wie kann ich Ihnen helfen?;5.0;55.118.69.194;Munich;Bavaria;DE
+2024-10-23 10:09:29;;5.0;39.34.126.14;Munich;Bavaria;DE
+2024-06-07 10:09:29;Hola! ¿Cómo puedo ayudarte?;5.0;64.250.144.162;Munich;Bavaria;DE
+2024-07-23 10:09:29;;4.0;181.73.53.32;Munich;Bavaria;DE
+2024-10-04 10:09:29;Hi! How can I assist you?;5.0;41.18.209.9;Berlin;Berlin;DE
+2024-05-21 10:09:29;Hallo! Wie kann ich Ihnen helfen?;5.0;127.20.202.215;Hamburg;Hamburg;DE
+2024-12-13 10:09:29;Hola! ¿Cómo puedo ayudarte?;5.0;253.197.215.162;Berlin;Berlin;DE
+2024-11-27 10:09:29;Bonjour ! Comment puis-je t'aider ?;5.0;197.214.62.205;Berlin;Berlin;DE
+2024-09-24 10:09:29;Bonjour ! Comment puis-je t'aider ?;5.0;108.241.92.67;Hamburg;Hamburg;DE
+2024-10-30 10:09:29;Hola! ¿Cómo puedo ayudarte?;3.0;179.63.147.77;Munich;Bavaria;DE
+2024-11-05 10:09:29;Hallo! Wie kann ich Ihnen helfen?;5.0;3.163.81.133;Munich;Bavaria;DE
+2024-06-12 10:09:29;Hi! How can I assist you?;5.0;146.51.105.121;Hamburg;Hamburg;DE
+2024-05-08 10:09:29;Hola! ¿Cómo puedo ayudarte?;5.0;220.246.185.34;Munich;Bavaria;DE
+2024-10-14 10:09:29;Hi! How can I assist you?;4.0;15.240.2.60;Munich;Bavaria;DE
+2024-10-14 10:09:29;Bonjour ! Comment puis-je t'aider ?;5.0;67.5.83.150;Hamburg;Hamburg;DE
+2024-08-30 10:09:29;Hola! ¿Cómo puedo ayudarte?;4.0;223.216.74.6;Munich;Bavaria;DE
+2024-08-02 10:09:29;Hi! How can I assist you?;5.0;197.183.211.108;Milan;Lombardy;IT
+2024-01-24 10:09:29;Hallo! Wie kann ich Ihnen helfen?;4.0;137.225.66.90;Milan;Lombardy;IT
+2024-10-06 10:09:29;Hi! How can I assist you?;5.0;48.125.34.140;Naples;Campania;IT
+2025-01-07 10:09:29;;4.0;176.252.10.34;Milan;Lombardy;IT
+2024-11-07 10:09:29;;5.0;18.2.80.239;Rome;Lazio;IT
+2024-08-19 10:09:29;Ciao! Come posso aiutarti?;5.0;91.104.97.219;Naples;Campania;IT
+2024-11-16 10:09:29;;5.0;121.221.115.88;Milan;Lombardy;IT
+2024-09-16 10:09:29;Ciao! Come posso aiutarti?;4.0;211.141.223.60;Naples;Campania;IT
+2024-04-20 10:09:29;;4.5;202.117.78.73;Rome;Lazio;IT
+2024-02-09 10:09:29;Hallo! Wie kann ich Ihnen helfen?;5.0;157.49.45.119;Rome;Lazio;IT
+2024-12-25 10:09:29;Hi! How can I assist you?;5.0;126.182.3.52;Milan;Lombardy;IT
+2024-12-28 10:09:29;;5.0;140.58.123.16;Rome;Lazio;IT
+2024-07-28 10:09:29;Bonjour ! Comment puis-je t'aider ?;5.0;69.189.71.58;Milan;Lombardy;IT
+2024-08-06 10:09:29;Hallo! Wie kann ich Ihnen helfen?;3.0;153.251.174.145;Rome;Lazio;IT
+2024-05-25 10:09:29;Hallo! Wie kann ich Ihnen helfen?;4.5;24.127.133.100;Naples;Campania;IT
+2024-09-13 10:09:29;Hallo! Wie kann ich Ihnen helfen?;4.0;47.132.240.84;Naples;Campania;IT
+2024-11-25 10:09:29;Hi! How can I assist you?;5.0;67.138.117.50;Milan;Lombardy;IT
+2024-03-24 10:09:29;Hi! How can I assist you?;3.0;58.91.66.93;Naples;Campania;IT
+2024-05-15 10:09:29;Hi! How can I assist you?;5.0;138.23.165.77;Milan;Lombardy;IT
+2024-07-14 10:09:29;Hola! ¿Cómo puedo ayudarte?;3.0;207.101.180.111;Rome;Lazio;IT
+2024-03-11 10:09:29;Bonjour ! Comment puis-je t'aider ?;5.0;233.123.140.34;Barcelona;Catalonia;ES
+2024-10-07 10:09:29;Hi! How can I assist you?;4.0;205.54.215.70;Seville;Andalusia;ES
+2024-09-24 10:09:29;Hallo! Wie kann ich Ihnen helfen?;4.5;81.253.121.184;Madrid;Madrid;ES
+2024-12-30 10:09:29;Hola! ¿Cómo puedo ayudarte?;3.0;1.14.91.150;Madrid;Madrid;ES
+2025-01-12 10:09:29;Hola! ¿Cómo puedo ayudarte?;3.5;150.170.156.164;Madrid;Madrid;ES
+2024-10-18 10:09:29;;4.0;129.231.49.42;Barcelona;Catalonia;ES
+2024-06-02 10:09:29;Bonjour ! Comment puis-je t'aider ?;5.0;200.125.132.136;Barcelona;Catalonia;ES
+2024-03-23 10:09:29;Hi! How can I assist you?;4.0;94.191.244.31;Barcelona;Catalonia;ES
+2024-11-17 10:09:29;Hola! ¿Cómo puedo ayudarte?;3.5;173.77.206.17;Madrid;Madrid;ES
+2024-08-30 10:09:29;Hi! How can I assist you?;3.0;83.167.239.204;Madrid;Madrid;ES
+2024-07-30 10:09:29;Hi! How can I assist you?;4.5;120.145.143.40;Seville;Andalusia;ES
+2024-04-08 10:09:29;Hi! How can I assist you?;3.0;189.51.56.142;Seville;Andalusia;ES
+2024-10-04 10:09:29;Ciao! Come posso aiutarti?;3.5;196.106.105.21;Madrid;Madrid;ES
+2024-08-14 10:09:29;Hallo! Wie kann ich Ihnen helfen?;3.0;102.131.143.209;Madrid;Madrid;ES
+2024-12-19 10:09:29;Bonjour ! Comment puis-je t'aider ?;4.5;88.143.132.38;Seville;Andalusia;ES
+2024-08-09 10:09:29;;3.0;176.149.235.173;Seville;Andalusia;ES
+2024-03-28 10:09:29;Hi! How can I assist you?;5.0;71.70.121.134;Madrid;Madrid;ES
+2024-03-16 10:09:29;Hi! How can I assist you?;4.0;229.176.67.231;Barcelona;Catalonia;ES
+2024-02-17 10:09:29;Ciao! Come posso aiutarti?;5.0;202.21.72.39;Barcelona;Catalonia;ES
+2024-02-05 10:09:29;Bonjour ! Comment puis-je t'aider ?;3.0;115.171.196.193;Madrid;Madrid;ES
+2024-11-07 10:09:29;Hola! ¿Cómo puedo ayudarte?;5.0;204.191.93.125;Warsaw;Masovian;PL
+2024-09-09 10:09:29;Ciao! Come posso aiutarti?;4.0;25.12.95.214;Krakow;Lesser Poland;PL
+2024-04-20 10:09:29;Hallo! Wie kann ich Ihnen helfen?;4.5;140.241.207.194;Gdansk;Pomeranian;PL
+2024-10-22 10:09:29;Hi! How can I assist you?;5.0;35.21.16.127;Krakow;Lesser Poland;PL
+2024-05-19 10:09:29;Hola! ¿Cómo puedo ayudarte?;5.0;209.162.185.144;Warsaw;Masovian;PL
+2024-02-14 10:09:29;Hola! ¿Cómo puedo ayudarte?;5.0;115.134.246.210;Warsaw;Masovian;PL
+2024-10-18 10:09:29;Hola! ¿Cómo puedo ayudarte?;5.0;108.12.45.207;Krakow;Lesser Poland;PL
+2024-08-14 10:09:29;Hi! How can I assist you?;5.0;20.144.193.149;Krakow;Lesser Poland;PL
+2024-08-03 10:09:29;Hallo! Wie kann ich Ihnen helfen?;5.0;123.186.192.4;Warsaw;Masovian;PL
+2024-09-28 10:09:29;Hallo! Wie kann ich Ihnen helfen?;5.0;233.116.255.202;Krakow;Lesser Poland;PL
+2024-02-02 10:09:29;Bonjour ! Comment puis-je t'aider ?;4.5;90.240.161.168;Gdansk;Pomeranian;PL
+2024-05-14 10:09:29;;3.0;47.29.48.132;Gdansk;Pomeranian;PL
+2024-10-31 10:09:29;Hallo! Wie kann ich Ihnen helfen?;5.0;48.225.33.93;Gdansk;Pomeranian;PL
+2024-12-20 10:09:29;;4.0;214.212.126.253;Gdansk;Pomeranian;PL
+2024-09-14 10:09:29;;5.0;194.247.80.236;Krakow;Lesser Poland;PL
+2024-12-17 10:09:29;;4.0;62.147.60.231;Warsaw;Masovian;PL
+2024-07-06 10:09:29;Hola! ¿Cómo puedo ayudarte?;5.0;81.202.79.119;Krakow;Lesser Poland;PL
+2024-05-28 10:09:29;;4.0;33.5.129.108;Krakow;Lesser Poland;PL
+2024-10-26 10:09:29;Ciao! Come posso aiutarti?;5.0;21.144.181.50;Gdansk;Pomeranian;PL
+2024-05-17 10:09:29;Ciao! Come posso aiutarti?;3.0;97.57.110.151;Gdansk;Pomeranian;PL
+2024-10-23 10:09:29;Bonjour ! Comment puis-je t'aider ?;2.5;49.106.40.182;Rotterdam;South Holland;NL
+2024-04-19 10:09:29;Bonjour ! Comment puis-je t'aider ?;2.0;56.131.212.249;Amsterdam;North Holland;NL
+2024-07-02 10:09:29;;2.5;64.255.83.31;Rotterdam;South Holland;NL
+2024-11-04 10:09:29;Hallo! Wie kann ich Ihnen helfen?;1.0;156.136.147.48;Utrecht;Utrecht;NL
+2024-05-27 10:09:29;Ciao! Come posso aiutarti?;2.5;184.84.194.149;Rotterdam;South Holland;NL
+2024-02-11 10:09:29;Hi! How can I assist you?;1.0;234.19.38.106;Rotterdam;South Holland;NL
+2024-12-25 10:09:29;Ciao! Come posso aiutarti?;2.5;5.132.36.72;Amsterdam;North Holland;NL
+2024-04-20 10:09:29;;1.0;180.118.177.211;Rotterdam;South Holland;NL
+2024-08-02 10:09:29;Bonjour ! Comment puis-je t'aider ?;3.5;133.52.91.44;Rotterdam;South Holland;NL
+2024-08-12 10:09:29;Bonjour ! Comment puis-je t'aider ?;1.0;12.183.141.250;Amsterdam;North Holland;NL
+2024-06-12 10:09:29;Hallo! Wie kann ich Ihnen helfen?;2.5;239.25.156.228;Rotterdam;South Holland;NL
+2024-10-04 10:09:29;Ciao! Come posso aiutarti?;1.0;120.253.196.52;Amsterdam;North Holland;NL
+2024-02-04 10:09:29;;2.5;127.48.250.196;Utrecht;Utrecht;NL
+2024-01-23 10:09:29;Bonjour ! Comment puis-je t'aider ?;2.0;138.179.79.181;Rotterdam;South Holland;NL
+2024-07-02 10:09:29;Hi! How can I assist you?;3.5;195.134.211.62;Rotterdam;South Holland;NL
+2024-01-29 10:09:29;Bonjour ! Comment puis-je t'aider ?;1.0;143.211.15.106;Rotterdam;South Holland;NL
+2024-02-24 10:09:29;Hi! How can I assist you?;3.5;230.244.202.63;Rotterdam;South Holland;NL
+2024-05-26 10:09:29;Bonjour ! Comment puis-je t'aider ?;1.0;83.132.205.90;Amsterdam;North Holland;NL
+2024-10-18 10:09:29;Hola! ¿Cómo puedo ayudarte?;2.5;238.101.164.135;Amsterdam;North Holland;NL
+2024-06-08 10:09:29;;1.0;63.117.141.201;Utrecht;Utrecht;NL
+2024-06-26 10:09:29;;5.0;202.233.12.73;Malmö;Skåne;SE
+2024-02-12 10:09:29;Hallo! Wie kann ich Ihnen helfen?;5.0;8.122.223.120;Malmö;Skåne;SE
+2024-09-11 10:09:29;;5.0;151.11.152.226;Gothenburg;Västra Götaland;SE
+2024-09-16 10:09:29;Hola! ¿Cómo puedo ayudarte?;5.0;140.58.52.208;Stockholm;Stockholm;SE
+2024-08-20 10:09:29;;5.0;72.248.185.53;Gothenburg;Västra Götaland;SE
+2024-02-03 10:09:29;Hola! ¿Cómo puedo ayudarte?;4.0;64.122.157.92;Gothenburg;Västra Götaland;SE
+2024-06-11 10:09:29;Hallo! Wie kann ich Ihnen helfen?;5.0;198.195.28.255;Stockholm;Stockholm;SE
+2024-11-07 10:09:29;;5.0;142.95.228.214;Gothenburg;Västra Götaland;SE
+2024-06-25 10:09:29;Hi! How can I assist you?;5.0;142.93.49.155;Malmö;Skåne;SE
+2024-08-10 10:09:29;Bonjour ! Comment puis-je t'aider ?;4.0;237.103.249.161;Gothenburg;Västra Götaland;SE
+2024-07-24 10:09:29;;5.0;30.148.76.241;Malmö;Skåne;SE
+2024-07-09 10:09:29;Ciao! Come posso aiutarti?;5.0;1.147.96.149;Stockholm;Stockholm;SE
+2024-06-27 10:09:29;Ciao! Come posso aiutarti?;5.0;26.106.129.173;Stockholm;Stockholm;SE
+2024-11-20 10:09:29;Hallo! Wie kann ich Ihnen helfen?;5.0;215.142.56.36;Gothenburg;Västra Götaland;SE
+2024-02-19 10:09:29;;5.0;132.101.148.167;Gothenburg;Västra Götaland;SE
+2024-02-16 10:09:29;Ciao! Come posso aiutarti?;4.0;16.70.45.158;Malmö;Skåne;SE
+2024-12-12 10:09:29;;5.0;15.126.59.146;Malmö;Skåne;SE
+2024-04-10 10:09:29;Hallo! Wie kann ich Ihnen helfen?;5.0;16.175.137.73;Malmö;Skåne;SE
+2024-04-29 10:09:29;Hi! How can I assist you?;5.0;65.151.50.44;Malmö;Skåne;SE
+2024-03-13 10:09:29;Hi! How can I assist you?;5.0;1.125.200.101;Malmö;Skåne;SE
+2024-08-22 10:09:29;Ciao! Come posso aiutarti?;4.5;99.222.84.116;Stavanger;Rogaland;NO
+2024-07-23 10:09:29;Hallo! Wie kann ich Ihnen helfen?;3.0;142.137.63.138;Stavanger;Rogaland;NO
+2024-04-11 10:09:29;;4.5;139.138.200.205;Bergen;Vestland;NO
+2024-01-18 10:09:29;Hola! ¿Cómo puedo ayudarte?;2.0;193.156.49.9;Oslo;Oslo;NO
+2024-09-26 10:09:29;Ciao! Come posso aiutarti?;3.5;99.116.106.183;Bergen;Vestland;NO
+2024-01-28 10:09:29;Bonjour ! Comment puis-je t'aider ?;3.0;210.255.89.32;Bergen;Vestland;NO
+2024-04-16 10:09:29;;3.5;56.64.43.3;Stavanger;Rogaland;NO
+2024-03-24 10:09:29;;3.0;105.165.39.205;Oslo;Oslo;NO
+2025-01-02 10:09:29;Hallo! Wie kann ich Ihnen helfen?;3.5;153.64.114.190;Stavanger;Rogaland;NO
+2024-10-22 10:09:29;Ciao! Come posso aiutarti?;3.0;156.181.188.235;Oslo;Oslo;NO
+2024-04-17 10:09:29;Bonjour ! Comment puis-je t'aider ?;3.5;74.149.168.221;Stavanger;Rogaland;NO
+2024-07-01 10:09:29;Hi! How can I assist you?;3.0;51.16.32.244;Oslo;Oslo;NO
+2024-12-16 10:09:29;Hi! How can I assist you?;3.5;168.241.188.117;Oslo;Oslo;NO
+2024-10-13 10:09:29;Hola! ¿Cómo puedo ayudarte?;2.0;144.234.31.113;Bergen;Vestland;NO
+2024-07-06 10:09:29;Bonjour ! Comment puis-je t'aider ?;4.5;174.208.12.200;Bergen;Vestland;NO
+2024-04-29 10:09:29;Ciao! Come posso aiutarti?;3.0;128.89.11.149;Oslo;Oslo;NO
+2024-12-11 10:09:29;Hola! ¿Cómo puedo ayudarte?;4.5;188.45.168.237;Oslo;Oslo;NO
+2024-02-11 10:09:29;Bonjour ! Comment puis-je t'aider ?;3.0;164.240.118.71;Oslo;Oslo;NO
+2024-04-21 10:09:29;Hola! ¿Cómo puedo ayudarte?;5.0;109.49.104.194;Oslo;Oslo;NO
+2024-01-19 10:09:29;Hola! ¿Cómo puedo ayudarte?;3.0;251.243.83.255;Bergen;Vestland;NO
+2024-05-29 10:09:29;Hi! How can I assist you?;3.5;41.34.118.41;Turku;Southwest Finland;FI
+2024-04-28 10:09:29;Bonjour ! Comment puis-je t'aider ?;1.0;246.100.239.41;Turku;Southwest Finland;FI
+2024-06-07 10:09:29;Hola! ¿Cómo puedo ayudarte?;2.5;38.16.213.92;Helsinki;Uusimaa;FI
+2024-12-13 10:09:29;Hallo! Wie kann ich Ihnen helfen?;1.0;231.159.203.23;Tampere;Pirkanmaa;FI
+2024-01-19 10:09:29;Hallo! Wie kann ich Ihnen helfen?;2.5;237.21.154.143;Helsinki;Uusimaa;FI
+2024-08-29 10:09:29;Bonjour ! Comment puis-je t'aider ?;2.0;121.2.255.255;Tampere;Pirkanmaa;FI
+2024-09-26 10:09:29;Hola! ¿Cómo puedo ayudarte?;2.5;96.16.57.127;Turku;Southwest Finland;FI
+2024-09-25 10:09:29;Hallo! Wie kann ich Ihnen helfen?;1.0;137.13.170.196;Tampere;Pirkanmaa;FI
+2024-07-23 10:09:29;Bonjour ! Comment puis-je t'aider ?;2.5;222.164.28.204;Tampere;Pirkanmaa;FI
+2024-09-02 10:09:29;Hi! How can I assist you?;1.0;195.78.181.239;Turku;Southwest Finland;FI
+2024-08-22 10:09:29;Ciao! Come posso aiutarti?;2.5;79.98.144.209;Turku;Southwest Finland;FI
+2024-07-10 10:09:29;Hola! ¿Cómo puedo ayudarte?;1.0;158.160.148.209;Tampere;Pirkanmaa;FI
+2025-01-04 10:09:29;Hi! How can I assist you?;3.5;251.251.76.126;Tampere;Pirkanmaa;FI
+2024-11-06 10:09:29;Hola! ¿Cómo puedo ayudarte?;1.0;43.193.241.25;Tampere;Pirkanmaa;FI
+2024-04-14 10:09:29;Hola! ¿Cómo puedo ayudarte?;2.5;48.131.178.197;Turku;Southwest Finland;FI
+2024-11-21 10:09:29;Hi! How can I assist you?;2.0;12.26.95.31;Helsinki;Uusimaa;FI
+2024-05-19 10:09:29;Hola! ¿Cómo puedo ayudarte?;2.5;128.221.187.169;Helsinki;Uusimaa;FI
+2024-11-11 10:09:29;Hallo! Wie kann ich Ihnen helfen?;1.0;17.46.235.48;Turku;Southwest Finland;FI
+2024-11-27 10:09:29;Hallo! Wie kann ich Ihnen helfen?;2.5;167.178.63.83;Turku;Southwest Finland;FI
+2024-03-02 10:09:29;Hola! ¿Cómo puedo ayudarte?;1.0;160.165.167.225;Turku;Southwest Finland;FI
+2024-03-07 10:09:29;Bonjour ! Comment puis-je t'aider ?;5.0;103.93.143.189;Odense;Southern Denmark;DK
+2024-12-05 10:09:29;;4.0;93.169.189.88;Odense;Southern Denmark;DK
+2024-02-14 10:09:29;Hola! ¿Cómo puedo ayudarte?;5.0;45.149.43.233;Copenhagen;Capital Region;DK
+2024-07-10 10:09:29;Ciao! Come posso aiutarti?;4.0;185.110.179.56;Copenhagen;Capital Region;DK
+2024-09-09 10:09:29;Hi! How can I assist you?;5.0;97.243.61.89;Odense;Southern Denmark;DK
+2024-05-11 10:09:29;Hallo! Wie kann ich Ihnen helfen?;5.0;31.111.46.88;Copenhagen;Capital Region;DK
+2024-11-17 10:09:29;Hi! How can I assist you?;5.0;187.221.215.85;Copenhagen;Capital Region;DK
+2024-03-11 10:09:29;;5.0;146.199.186.44;Copenhagen;Capital Region;DK
+2025-01-08 10:09:29;Ciao! Come posso aiutarti?;5.0;210.197.52.251;Copenhagen;Capital Region;DK
+2024-03-23 10:09:29;Hola! ¿Cómo puedo ayudarte?;4.0;208.33.179.10;Odense;Southern Denmark;DK
+2024-06-18 10:09:29;Ciao! Come posso aiutarti?;5.0;139.152.91.91;Odense;Southern Denmark;DK
+2024-10-28 10:09:29;;3.0;187.226.138.71;Odense;Southern Denmark;DK
+2024-11-18 10:09:29;Bonjour ! Comment puis-je t'aider ?;5.0;77.82.146.128;Copenhagen;Capital Region;DK
+2024-10-27 10:09:29;;5.0;145.131.174.103;Odense;Southern Denmark;DK
+2024-02-06 10:09:29;Hi! How can I assist you?;5.0;10.197.169.4;Aarhus;Central Denmark;DK
+2025-01-16 10:09:29;Hallo! Wie kann ich Ihnen helfen?;5.0;134.154.38.16;Odense;Southern Denmark;DK
+2024-02-18 10:09:29;Hi! How can I assist you?;4.5;83.203.149.18;Aarhus;Central Denmark;DK
+2024-04-25 10:09:29;Bonjour ! Comment puis-je t'aider ?;4.0;71.118.215.173;Copenhagen;Capital Region;DK
+2024-03-15 10:09:29;Hallo! Wie kann ich Ihnen helfen?;5.0;186.66.13.241;Aarhus;Central Denmark;DK
+2024-09-09 10:09:29;;4.0;43.207.13.80;Odense;Southern Denmark;Denmark
