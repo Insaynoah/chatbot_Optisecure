@@ -12,10 +12,13 @@ from streamlit_folium import st_folium
 # Configuration de la page
 st.set_page_config(
     page_title="Dashboard",
-    page_icon="🤖",
+    page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+# Affiche le logo
+st.logo(icon_image='https://i.ibb.co/MSZB1qp/Marceline-1.png', image='https://i.ibb.co/MSZB1qp/Marceline-1.png', size='large')
 
 # Style de la barre latérale
 st.markdown(

@@ -5,6 +5,13 @@ import requests
 import json
 from modules.bdd import requete_chromadb
 
+st.set_page_config(
+    page_title="Chatbot",
+    page_icon="🤖",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
 # Lecture de la clé API depuis un fichier local pour accéder à l'API de génération de contenu
 with open('cleApi.txt', 'r') as file:
     api_key = file.read().strip()
