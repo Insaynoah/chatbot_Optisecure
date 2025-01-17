@@ -5,6 +5,7 @@ import csv
 from datetime import datetime
 import os
 from bdd import *
+import subprocess
 
 # Votre clé API Gemini
 api_key = "AIzaSyB5TvLH3-6CqNL09eEAEvGO9frgt5UNwk4"  # Remplacez par votre véritable clé API
@@ -20,44 +21,54 @@ st.title("Chatbot OptiSecure Assurances")
 
 # Ajouter le système d'avis dans la sidebar
 with st.sidebar:
-    st.subheader("Évaluez la réponse de l'assistant (0 à 5)")
-    
-    # Slider pour évaluation
-    rating = st.slider("Sélectionnez une note", min_value=0, max_value=5, step=1, key="rating")
-    
-    # Ajouter un bouton Soumettre
-    if st.button("Soumettre l'évaluation"):
-        # Obtenez la date et l'heure actuelles
-        current_datetime = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        chat_history = " ".join([msg["content"] for msg in st.session_state.messages])  # Historique des messages
+        st.subheader("Évaluez la réponse de l'assistant (0 à 5)")
         
-        ipinfo_token = "ec7847dfb8277c" 
-
-        # Effectuer la requête à l'API avec le token
-        url = f"https://ipinfo.io?token={ipinfo_token}"
-        response = requests.get(url)
-
-        if response.status_code == 200:
-            # Extraire les données de localisation
-            location_data = response.json()
-            city = location_data.get("city", "Inconnue")
-            region = location_data.get("region", "Inconnue")
-            country = location_data.get("country", "Inconnu")
-            ip = location_data.get("ip", "Inconnue")
+        # Slider pour sélectionner une note
+        rating = st.slider("Sélectionnez une note", min_value=0, max_value=5, step=1, key="rating")
+        
+        # Bouton pour soumettre l'évaluation
+        if st.button("Soumettre l'évaluation"):
+            # Obtenez la date et l'heure actuelles
+            current_datetime = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            # Historique des messages (simulé ici)
+            chat_history = "Exemple d'historique de la conversation."
             
-        data_to_write = [current_datetime, chat_history, rating, ip, city, region, country]
-        
-        # Écrire dans le fichier CSV
-        with open("feedback.csv", mode="a", newline='', encoding="utf-8") as file:
-            file_empty = os.stat("feedback.csv").st_size == 0
-            writer = csv.writer(file, delimiter=";")
+            # API IPinfo
+            ipinfo_token = "ec7847dfb8277c"
+            url = f"https://ipinfo.io?token={ipinfo_token}"
+            response = requests.get(url)
             
-            if file_empty:  # Ajouter l'entête si le fichier est vide
-                writer.writerow(["Date", "Historique de la conversation", "Note", "IP", "Ville", "Region", "Pays"])
-            writer.writerow(data_to_write)
+            if response.status_code == 200:
+                location_data = response.json()
+                city = location_data.get("city", "Inconnue")
+                region = location_data.get("region", "Inconnue")
+                country = location_data.get("country", "Inconnu")
+                ip = location_data.get("ip", "Inconnue")
+            else:
+                city, region, country, ip = "Inconnue", "Inconnue", "Inconnu", "Inconnue"
+            
+            data_to_write = [current_datetime, chat_history, rating, ip, city, region, country]
+            
+            # Enregistrement dans un fichier CSV
+            with open("feedback.csv", mode="a", newline='', encoding="utf-8") as file:
+                file_empty = os.stat("feedback.csv").st_size == 0
+                writer = csv.writer(file, delimiter=";")
+                if file_empty:  # Ajouter l'entête si le fichier est vide
+                    writer.writerow(["Date", "Historique de la conversation", "Note", "IP", "Ville", "Region", "Pays"])
+                writer.writerow(data_to_write)
+            
+            st.write(f"Merci pour votre évaluation : {rating}")
         
-        st.write(f"Merci pour votre évaluation : {rating}")
-                
+        # Ajout d'un bouton pour exécuter un autre script Streamlit
+        st.markdown("---")  # Ligne de séparation
+        st.subheader("Outils supplémentaires")
+
+        if st.button("Lancer le dashboard"):
+            try:
+                subprocess.Popen(["streamlit", "run", "rag/dashboard.py"])
+                st.success("Le dashboard RAG est en cours de lancement...")
+            except Exception as e:
+                st.error(f"Erreur lors du lancement du dashboard : {e}")
 # Initialiser l'historique des messages
 if "messages" not in st.session_state:
     st.session_state.messages = []  # Si aucun historique n'existe, on initialise une liste vide
