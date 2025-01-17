@@ -5,6 +5,7 @@ import requests
 import json
 from modules.bdd import requete_chromadb
 
+# Configuration de la page
 st.set_page_config(
     page_title="Chatbot",
     page_icon="🤖",
