@@ -7,5 +7,3 @@ __pycache__/
 # Ignore environment configuration file
 .env
 
-# Ignore specific file under rag directory (if it's a file)
-rag/dashboard.py
