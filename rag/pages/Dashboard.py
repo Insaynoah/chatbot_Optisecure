@@ -62,6 +62,11 @@ else:
         Nombre=('Note', 'count')
     ).reset_index().rename(columns={"Moyenne_Note": "Note moyenne"})
     city_avg_note_filtre["Note moyenne"] = city_avg_note_filtre["Note moyenne"].round(2)
+    # Ajoute le drapeau avant le nom du pays
+    city_avg_note_filtre['Pays'] = city_avg_note_filtre.apply(
+                    lambda x: f'<img src="{x["URL"]}" width="20"/> {x["Country"]}' if pd.notnull(x["URL"]) else x["Country"],
+                    axis=1
+                )
     city_avg_note_filtre = city_avg_note_filtre.merge(flags, left_on='Pays', right_on='Alpha-2 code', how='left')
 
     tab1, tab2 = st.tabs(["📊 Indicateurs + Carte", "📜 Nuage de mots"])
