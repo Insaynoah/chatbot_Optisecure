@@ -35,4 +35,5 @@ def apply_filters(df : pd.DataFrame) -> pd.DataFrame:
         ((df['Date'].dt.month == mois_filtre) if mois_filtre else True) &
         ((df['Date'].dt.year == annee_filtre) if annee_filtre else True)
     ]
+    print(df_filtre)
     return df_filtre
