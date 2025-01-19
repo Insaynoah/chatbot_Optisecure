@@ -1,6 +1,6 @@
 import pandas as pd
 
-def create_star_rating(note : float) -> str:
+def create_star_rating(note: float) -> str:
     """
     Crée une représentation étoilée d'une note.
 

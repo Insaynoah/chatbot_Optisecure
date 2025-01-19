@@ -61,6 +61,7 @@ else:
         Moyenne_Note=('Note', 'mean'),
         Nombre=('Note', 'count')
     ).reset_index().rename(columns={"Moyenne_Note": "Note moyenne"})
+    city_avg_note_filtre["Note moyenne"] = city_avg_note_filtre["Note moyenne"].round(2)
     city_avg_note_filtre = city_avg_note_filtre.merge(flags, left_on='Pays', right_on='Alpha-2 code', how='left')
 
     tab1, tab2 = st.tabs(["📊 Indicateurs + Carte", "📜 Nuage de mots"])
