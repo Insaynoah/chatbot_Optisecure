@@ -30,7 +30,7 @@ def build_prompt(prompt: str, messages: list, reponses_chroma: dict) -> str:
 
     # Trouve la distance minimale dans le dictionnaire des réponses
     min_distance = min(reponses_chroma.keys())
-    threshold = 0.6  # Définit un seuil de proximité pour considérer les réponses comme proches
+    threshold = 2 # Définit un seuil de proximité pour considérer les réponses comme proches
     # Identifie les distances proches de la distance minimale
     close_distances = [dist for dist in reponses_chroma.keys() if abs(dist - min_distance) <= threshold]
 
