@@ -9,4 +9,4 @@ folium==0.19.4
 geopandas==1.0.1
 wordcloud==1.9.4
 streamlit_folium==0.24.0
-pysqlite-binary
+pysqlite3-binary
