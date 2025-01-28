@@ -55,7 +55,7 @@ def build_prompt(prompt : str, messages : list, reponses_chroma : dict) -> str:
             )
     else:
         # Si la conversation contient plusieurs messages (réponses précédentes disponibles)
-        if min_distance > 0.8:
+        if min_distance > 0.1:
             # Si la distance est trop élevée, demande plus de détails ou réoriente la question
             prompt_entier += (
                 "Si la question suivante n'est pas en rapport avec les assurances, demande de poser une question par rapport aux assurances. "
