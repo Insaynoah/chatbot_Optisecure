@@ -1,4 +1,4 @@
-def build_prompt(prompt : str, messages : list, reponses_chroma : dict) -> str:
+def build_prompt(prompt: str, messages: list, reponses_chroma: dict) -> str:
     """
     Construit le prompt à envoyer à l'API en fonction de l'historique des messages et des distances fournies.
     
@@ -23,16 +23,21 @@ def build_prompt(prompt : str, messages : list, reponses_chroma : dict) -> str:
     historique = "\n".join([f"{msg['role']}: {msg['content']}" for msg in messages])
     prompt_entier = f"Voici l'historique de la conversation :\n{historique}\n\n"
 
+    # Vérifie si reponses_chroma est vide
+    if not reponses_chroma:
+        prompt_entier += f"Question : {prompt}\n(Note: Aucune réponse proche trouvée dans reponses_chroma.)"
+        return prompt_entier
+
     # Trouve la distance minimale dans le dictionnaire des réponses
     min_distance = min(reponses_chroma.keys())
-    threshold = 0.05  # Définit un seuil de proximité pour considérer les réponses comme proches
+    threshold = 0.6  # Définit un seuil de proximité pour considérer les réponses comme proches
     # Identifie les distances proches de la distance minimale
     close_distances = [dist for dist in reponses_chroma.keys() if abs(dist - min_distance) <= threshold]
 
     # Si la conversation ne contient qu'un seul message (première question de l'utilisateur)
     if len(messages) == 1:
-        if min_distance < 0.8:
-            # Si la distance minimale est élevée, traite la question comme une demande liée aux assurances
+        if min_distance < threshold:
+            # Si la distance minimale est inférieure au seuil, traite la question comme une demande liée aux assurances
             prompt_entier += (
                 "Tu dois agir durant toute la conversation comme un agent pour une assurance : Optisecure. "
                 "Si la question suivante n'a aucun sens ou est en rapport avec les assurances mais n'est pas assez détaillée, "
@@ -55,8 +60,8 @@ def build_prompt(prompt : str, messages : list, reponses_chroma : dict) -> str:
             )
     else:
         # Si la conversation contient plusieurs messages (réponses précédentes disponibles)
-        if min_distance > 0.8:
-            # Si la distance est trop élevée, demande plus de détails ou réoriente la question
+        if min_distance > threshold:
+            # Si la distance est supérieure au seuil, demande plus de détails ou réoriente la question
             prompt_entier += (
                 "Si la question suivante n'est pas en rapport avec les assurances, demande de poser une question par rapport aux assurances. "
                 "Sinon, demande plus de détails et ne réponds pas à la question posée. Question : " + prompt
