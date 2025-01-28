@@ -21,24 +21,26 @@ def build_prompt(prompt: str, messages: list, reponses_chroma: dict) -> str:
     
     # Crée une chaîne qui représente l'historique de la conversation en format lisible
     historique = "\n".join([f"{msg['role']}: {msg['content']}" for msg in messages])
-    prompt_entier = f"Voici l'historique de la conversation :\n{historique}\n\n"
 
     # Vérifie si reponses_chroma est vide
     if not reponses_chroma:
-        prompt_entier += f"Question : {prompt}\n(Note: Aucune réponse proche trouvée dans reponses_chroma.)"
+        prompt_entier = f"Question : {prompt}\n(Note: Aucune réponse proche trouvée dans reponses_chroma.)"
         return prompt_entier
 
     # Trouve la distance minimale dans le dictionnaire des réponses
     min_distance = min(reponses_chroma.keys())
-    threshold = 2 # Définit un seuil de proximité pour considérer les réponses comme proches
+    threshold = 0.0001  # Définit un seuil de proximité pour considérer les réponses comme proches
     # Identifie les distances proches de la distance minimale
     close_distances = [dist for dist in reponses_chroma.keys() if abs(dist - min_distance) <= threshold]
 
+    # Ajoute des informations de débogage
+    print(f"Debug Info: min_distance = {min_distance}, close_distances = {close_distances}")
+
     # Si la conversation ne contient qu'un seul message (première question de l'utilisateur)
     if len(messages) == 1:
-        if min_distance < threshold:
-            # Si la distance minimale est inférieure au seuil, traite la question comme une demande liée aux assurances
-            prompt_entier += (
+        if min_distance > 0.8:
+            # Si la distance minimale est élevée, traite la question comme une demande liée aux assurances
+            prompt_entier = (
                 "Tu dois agir durant toute la conversation comme un agent pour une assurance : Optisecure. "
                 "Si la question suivante n'a aucun sens ou est en rapport avec les assurances mais n'est pas assez détaillée, "
                 "demande plus de détails/informations. Question : " + prompt
@@ -46,7 +48,7 @@ def build_prompt(prompt: str, messages: list, reponses_chroma: dict) -> str:
         elif len(close_distances) > 1:
             # Si plusieurs réponses sont très proches de la question, propose les options à l'utilisateur
             options = "\n".join([f"Option {i + 1}: {reponses_chroma[dist]}" for i, dist in enumerate(close_distances)])
-            prompt_entier += (
+            prompt_entier = (
                 "Voici la question posée par l'utilisateur : " + prompt + 
                 " et voici plusieurs réponses possibles qui sont très proches :\n" + options + 
                 "\nExplique pourquoi une réponse claire ne peut être donnée et propose une reformulation basée sur ces options."
@@ -54,22 +56,22 @@ def build_prompt(prompt: str, messages: list, reponses_chroma: dict) -> str:
         else:
             # Sinon, retourne la meilleure réponse basée sur la distance minimale
             meilleur_reponse = reponses_chroma[min_distance]
-            prompt_entier += (
+            prompt_entier = (
                 "Voici la question posée par l'utilisateur : " + prompt + 
                 " et voici la réponse que tu dois reformuler : " + meilleur_reponse
             )
     else:
         # Si la conversation contient plusieurs messages (réponses précédentes disponibles)
-        if min_distance > threshold:
-            # Si la distance est supérieure au seuil, demande plus de détails ou réoriente la question
-            prompt_entier += (
+        if min_distance > 0.8:
+            # Si la distance est trop élevée, demande plus de détails ou réoriente la question
+            prompt_entier = (
                 "Si la question suivante n'est pas en rapport avec les assurances, demande de poser une question par rapport aux assurances. "
                 "Sinon, demande plus de détails et ne réponds pas à la question posée. Question : " + prompt
             )
         elif len(close_distances) > 1:
             # Si plusieurs réponses sont proches, propose les options à l'utilisateur
             options = "\n".join([f"Option {i + 1}: {reponses_chroma[dist]}" for i, dist in enumerate(close_distances)])
-            prompt_entier += (
+            prompt_entier = (
                 "Voici la question posée par l'utilisateur : " + prompt + 
                 " et voici plusieurs réponses possibles qui sont très proches :\n" + options + 
                 "\nExplique pourquoi une réponse claire ne peut être donnée et propose une reformulation basée sur ces options."
@@ -77,9 +79,9 @@ def build_prompt(prompt: str, messages: list, reponses_chroma: dict) -> str:
         else:
             # Sinon, retourne la meilleure réponse basée sur la distance minimale
             meilleur_reponse = reponses_chroma[min_distance]
-            prompt_entier += (
+            prompt_entier = (
                 "Voici la question posée par l'utilisateur : " + prompt + 
                 " et voici la réponse que tu dois reformuler : " + meilleur_reponse
             )
-    
+    print(prompt_entier)
     return prompt_entier
