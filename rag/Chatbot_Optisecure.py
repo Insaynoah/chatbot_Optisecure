@@ -13,6 +13,19 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+hide_sidebar_css = """
+<style>
+@media (max-width: 600px) {
+    [data-testid="stSidebar"] {
+        display: none !important;
+    }
+}
+</style>
+"""
+
+st.markdown(hide_sidebar_css, unsafe_allow_html=True)
+
+
 # Lecture de la clé API depuis un fichier local pour accéder à l'API de génération de contenu
 with open('cleApi.txt', 'r') as file:
     api_key = file.read().strip()
