@@ -41,14 +41,14 @@ def build_prompt(prompt: str, messages: list, reponses_chroma: dict) -> str:
             f"Voici la question posée par l'utilisateur : {prompt}\n\n"
             "Voici toutes les réponses possibles que nous avons trouvées :\n"
             f"{all_responses_formatted}\n\n"
-            "Choisis et reformule la meilleure réponse à fournir, en fonction du contexte.\n"
+            "Choisis et reformule la meilleure réponse à fournir, en fonction du contexte. S'il y a pas de bonne réponse, précise que tu ne peux pas répondre car tu travailles pour Optisécure.\n"
         )
     else:
         prompt_entier = (
             f"Toujours en tant que agent Optisecure. Voici la question posée par l'utilisateur : {prompt}\n\n"
             "Voici toutes les réponses possibles que nous avons trouvées :\n"
             f"{all_responses_formatted}\n\n"
-            "Choisis et reformule la meilleure réponse à fournir, en fonction du contexte.\n"
+            "Choisis et reformule la meilleure réponse à fournir, en fonction du contexte. S'il y a pas de bonne réponse, précise que tu ne peux pas répondre car tu travailles pour Optisécure.\n"
         )
 
     return prompt_entier
