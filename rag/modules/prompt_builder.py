@@ -18,13 +18,10 @@ def build_prompt(prompt: str, messages: list, reponses_chroma: dict) -> str:
         str: Le prompt formaté prêt à être envoyé à l'API.
     """
 
-    # Crée une chaîne représentant l'historique de la conversation en format lisible.
-    historique = "\n".join([f"{msg['role']}: {msg['content']}" for msg in messages])
-
     # Si reponses_chroma est vide, signale qu'aucune réponse n'est trouvée.
     if not reponses_chroma:
         prompt_entier = (
-            "Tu dois agir durant toute la conversation comme un agent pour une assurance : Optisecure.\n"
+            "Tu dois agir comme un agent pour une assurance : Optisecure.\n"
             f"Question : {prompt}\n(Note: Aucune réponse trouvée dans reponses_chroma.)"
         )
         return prompt_entier
@@ -35,14 +32,24 @@ def build_prompt(prompt: str, messages: list, reponses_chroma: dict) -> str:
         [f"- Possibilité {i+1}: {resp}" for i, resp in enumerate(all_responses)]
     )
 
-    # Construis le prompt final en incluant toutes les réponses sans filtrage de distance.
-    prompt_entier = (
-        "Tu dois agir durant toute la conversation comme un agent pour une assurance : Optisecure.\n"
-        f"Historique de la conversation :\n{historique}\n\n"
-        f"Voici la question posée par l'utilisateur : {prompt}\n\n"
-        "Voici toutes les réponses possibles que nous avons trouvées :\n"
-        f"{all_responses_formatted}\n\n"
-        "Choisis et reformule la meilleure réponse à fournir, en fonction du contexte.\n"
-    )
+    # Si c'est le premier message, inclure l'historique de la conversation.
+    if len(messages) == 1:
+        historique = f"{messages[0]['role']}: {messages[0]['content']}"
+        prompt_entier = (
+            "Tu dois agir comme un agent pour une assurance : Optisecure.\n"
+            f"Historique de la conversation :\n{historique}\n\n"
+            f"Voici la question posée par l'utilisateur : {prompt}\n\n"
+            "Voici toutes les réponses possibles que nous avons trouvées :\n"
+            f"{all_responses_formatted}\n\n"
+            "Choisis et reformule la meilleure réponse à fournir, en fonction du contexte.\n"
+        )
+    else:
+        prompt_entier = (
+            "Tu dois agir comme un agent pour une assurance : Optisecure.\n"
+            f"Voici la question posée par l'utilisateur : {prompt}\n\n"
+            "Voici toutes les réponses possibles que nous avons trouvées :\n"
+            f"{all_responses_formatted}\n\n"
+            "Choisis et reformule la meilleure réponse à fournir, en fonction du contexte.\n"
+        )
 
     return prompt_entier
