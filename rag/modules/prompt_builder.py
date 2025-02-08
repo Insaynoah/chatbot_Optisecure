@@ -36,7 +36,7 @@ def build_prompt(prompt: str, messages: list, reponses_chroma: dict) -> str:
     if len(messages) == 1:
         historique = f"{messages[0]['role']}: {messages[0]['content']}"
         prompt_entier = (
-            "Tu dois agir comme un agent pour une assurance : Optisecure.\n"
+            "Tu dois toujours et tout au long de la conversation agir comme un agent pour une assurance : Optisecure.\n"
             f"Historique de la conversation :\n{historique}\n\n"
             f"Voici la question posée par l'utilisateur : {prompt}\n\n"
             "Voici toutes les réponses possibles que nous avons trouvées :\n"
