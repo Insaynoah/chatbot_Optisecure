@@ -45,7 +45,7 @@ def build_prompt(prompt: str, messages: list, reponses_chroma: dict) -> str:
         )
     else:
         prompt_entier = (
-            f"Voici la question posée par l'utilisateur : {prompt}\n\n"
+            f"Toujours en tant que agent Optisecure. Voici la question posée par l'utilisateur : {prompt}\n\n"
             "Voici toutes les réponses possibles que nous avons trouvées :\n"
             f"{all_responses_formatted}\n\n"
             "Choisis et reformule la meilleure réponse à fournir, en fonction du contexte.\n"
